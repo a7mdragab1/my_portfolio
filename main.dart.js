@@ -44222,12 +44222,12 @@ q.dB()
 s=q.a.c
 r=B.b.Ua(q.e,new A.aof(s.toLowerCase()))
 if(r!==-1)$.a5.k3$.push(new A.aog(q,r))},
-n_(a,b){var s,r,q,p,o,n,m,l,k,j,i=this
-if(i.c==null||i.y)return
-i.ac(new A.ao9(i,a,b))
-s=i.e
+n_(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=this
+if(h.c==null||h.y)return
+h.ac(new A.ao9(h,a,b))
+s=h.e
 r=s[0]
-q=i.z
+q=h.z
 p=q.i(0,r)
 if(p==null)p=0
 for(o=s.length,n=0;n<s.length;s.length===o||(0,A.J)(s),++n){a=s[n]
@@ -44235,14 +44235,15 @@ m=q.i(0,a)
 if(m==null)m=0
 if(m>p){p=m
 r=a}}l=B.b.i0(s,r)
-if(l!==i.f){i.ac(new A.aoa(i,l))
-a=s[l].toLowerCase()
-s=a==="home"?"":"/"+a
+if(l!==h.f){h.ac(new A.aoa(h,l))
 k=window.location.pathname
-j=s.length===0?"/my_portfolio":"/my_portfolio"+s
-if(k!==j){s=window.history
+if(!B.d.C(k==null?"":k,"/project/")){a=s[l].toLowerCase()
+s=a==="home"?"":"/"+a
+j=window.location.pathname
+i=s.length===0?"/my_portfolio":"/my_portfolio"+s
+if(j!==i){s=window.history
 s.toString
-s.replaceState(new A.aqs([],[]).Ao(null),"",j)}}},
+s.replaceState(new A.aqs([],[]).Ao(null),"",i)}}}},
 adw(a){var s,r,q=this
 if(a<0||a>=q.e.length)return
 s=q.Q.i(0,q.e[a])
@@ -44415,7 +44416,7 @@ s.toString
 return A.kC(A.ct(s,0,null))},
 $S:0}
 A.ao_.prototype={
-$0(){A.a52(this.a).vj(0,"/project/"+(this.b+1),null)},
+$0(){A.a52(this.a).vj(0,"/my_portfolio/project/"+(this.b+1),null)},
 $S:0}
 A.anK.prototype={
 $0(){return A.kC(A.ct("mailto:a7mdragab1@gmail.com",0,null))},
