@@ -1,11 +1,11 @@
 {
     "name": "eng_ahmed_ragab_cv",
-    "short_name": "eng_ahmed_ragab_cv",
+    "short_name": "Ahmed Ragab",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Dr. Ahmed Ragab's Portfolio",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
